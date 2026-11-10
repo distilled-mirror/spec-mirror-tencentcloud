@@ -1,0 +1,1317 @@
+[
+  {
+    "product": "aai",
+    "version": "2018-05-22",
+    "file": "aai/v20180522/api.json"
+  },
+  {
+    "product": "aca",
+    "version": "2021-03-23",
+    "file": "aca/v20210323/api.json"
+  },
+  {
+    "product": "acp",
+    "version": "2022-01-05",
+    "file": "acp/v20220105/api.json"
+  },
+  {
+    "product": "adp",
+    "version": "2026-05-20",
+    "file": "adp/v20260520/api.json"
+  },
+  {
+    "product": "advisor",
+    "version": "2020-07-21",
+    "file": "advisor/v20200721/api.json"
+  },
+  {
+    "product": "af",
+    "version": "2020-02-26",
+    "file": "af/v20200226/api.json"
+  },
+  {
+    "product": "afc",
+    "version": "2020-02-26",
+    "file": "afc/v20200226/api.json"
+  },
+  {
+    "product": "ags",
+    "version": "2025-09-20",
+    "file": "ags/v20250920/api.json"
+  },
+  {
+    "product": "ai3d",
+    "version": "2025-05-13",
+    "file": "ai3d/v20250513/api.json"
+  },
+  {
+    "product": "aiart",
+    "version": "2022-12-29",
+    "file": "aiart/v20221229/api.json"
+  },
+  {
+    "product": "alb",
+    "version": "2025-10-30",
+    "file": "alb/v20251030/api.json"
+  },
+  {
+    "product": "ame",
+    "version": "2019-09-16",
+    "file": "ame/v20190916/api.json"
+  },
+  {
+    "product": "ams",
+    "version": "2020-12-29",
+    "file": "ams/v20201229/api.json"
+  },
+  {
+    "product": "anicloud",
+    "version": "2022-09-23",
+    "file": "anicloud/v20220923/api.json"
+  },
+  {
+    "product": "antiddos",
+    "version": "2020-03-09",
+    "file": "antiddos/v20200309/api.json"
+  },
+  {
+    "product": "ape",
+    "version": "2020-05-13",
+    "file": "ape/v20200513/api.json"
+  },
+  {
+    "product": "api",
+    "version": "2020-11-06",
+    "file": "api/v20201106/api.json"
+  },
+  {
+    "product": "apigateway",
+    "version": "2018-08-08",
+    "file": "apigateway/v20180808/api.json"
+  },
+  {
+    "product": "apis",
+    "version": "2024-08-01",
+    "file": "apis/v20240801/api.json"
+  },
+  {
+    "product": "apm",
+    "version": "2021-06-22",
+    "file": "apm/v20210622/api.json"
+  },
+  {
+    "product": "asr",
+    "version": "2019-06-14",
+    "file": "asr/v20190614/api.json"
+  },
+  {
+    "product": "asw",
+    "version": "2020-07-22",
+    "file": "asw/v20200722/api.json"
+  },
+  {
+    "product": "autoscaling",
+    "version": "2018-04-19",
+    "file": "autoscaling/v20180419/api.json"
+  },
+  {
+    "product": "ba",
+    "version": "2020-07-20",
+    "file": "ba/v20200720/api.json"
+  },
+  {
+    "product": "batch",
+    "version": "2017-03-12",
+    "file": "batch/v20170312/api.json"
+  },
+  {
+    "product": "bda",
+    "version": "2020-03-24",
+    "file": "bda/v20200324/api.json"
+  },
+  {
+    "product": "bdrc",
+    "version": "2026-03-30",
+    "file": "bdrc/v20260330/api.json"
+  },
+  {
+    "product": "bh",
+    "version": "2023-04-18",
+    "file": "bh/v20230418/api.json"
+  },
+  {
+    "product": "bi",
+    "version": "2022-01-05",
+    "file": "bi/v20220105/api.json"
+  },
+  {
+    "product": "billing",
+    "version": "2018-07-09",
+    "file": "billing/v20180709/api.json"
+  },
+  {
+    "product": "bizlive",
+    "version": "2019-03-13",
+    "file": "bizlive/v20190313/api.json"
+  },
+  {
+    "product": "bm",
+    "version": "2018-04-23",
+    "file": "bm/v20180423/api.json"
+  },
+  {
+    "product": "bma",
+    "version": "2022-11-15",
+    "file": "bma/v20221115/api.json"
+  },
+  {
+    "product": "bmeip",
+    "version": "2018-06-25",
+    "file": "bmeip/v20180625/api.json"
+  },
+  {
+    "product": "bmlb",
+    "version": "2018-06-25",
+    "file": "bmlb/v20180625/api.json"
+  },
+  {
+    "product": "bmvpc",
+    "version": "2018-06-25",
+    "file": "bmvpc/v20180625/api.json"
+  },
+  {
+    "product": "bpaas",
+    "version": "2018-12-17",
+    "file": "bpaas/v20181217/api.json"
+  },
+  {
+    "product": "bri",
+    "version": "2019-03-28",
+    "file": "bri/v20190328/api.json"
+  },
+  {
+    "product": "bsca",
+    "version": "2021-08-11",
+    "file": "bsca/v20210811/api.json"
+  },
+  {
+    "product": "btoe",
+    "version": "2021-05-14",
+    "file": "btoe/v20210514/api.json"
+  },
+  {
+    "product": "ca",
+    "version": "2023-02-28",
+    "file": "ca/v20230228/api.json"
+  },
+  {
+    "product": "cam",
+    "version": "2019-01-16",
+    "file": "cam/v20190116/api.json"
+  },
+  {
+    "product": "captcha",
+    "version": "2019-07-22",
+    "file": "captcha/v20190722/api.json"
+  },
+  {
+    "product": "car",
+    "version": "2022-01-10",
+    "file": "car/v20220110/api.json"
+  },
+  {
+    "product": "cat",
+    "version": "2018-04-09",
+    "file": "cat/v20180409/api.json"
+  },
+  {
+    "product": "cbs",
+    "version": "2017-03-12",
+    "file": "cbs/v20170312/api.json"
+  },
+  {
+    "product": "ccc",
+    "version": "2020-02-10",
+    "file": "ccc/v20200210/api.json"
+  },
+  {
+    "product": "cdb",
+    "version": "2017-03-20",
+    "file": "cdb/v20170320/api.json"
+  },
+  {
+    "product": "cdc",
+    "version": "2020-12-14",
+    "file": "cdc/v20201214/api.json"
+  },
+  {
+    "product": "cdn",
+    "version": "2018-06-06",
+    "file": "cdn/v20180606/api.json"
+  },
+  {
+    "product": "cds",
+    "version": "2018-04-20",
+    "file": "cds/v20180420/api.json"
+  },
+  {
+    "product": "cdwch",
+    "version": "2020-09-15",
+    "file": "cdwch/v20200915/api.json"
+  },
+  {
+    "product": "cdwdoris",
+    "version": "2021-12-28",
+    "file": "cdwdoris/v20211228/api.json"
+  },
+  {
+    "product": "cdwpg",
+    "version": "2020-12-30",
+    "file": "cdwpg/v20201230/api.json"
+  },
+  {
+    "product": "cdz",
+    "version": "2022-11-23",
+    "file": "cdz/v20221123/api.json"
+  },
+  {
+    "product": "cetcd",
+    "version": "2022-03-25",
+    "file": "cetcd/v20220325/api.json"
+  },
+  {
+    "product": "cfg",
+    "version": "2021-08-20",
+    "file": "cfg/v20210820/api.json"
+  },
+  {
+    "product": "cfs",
+    "version": "2019-07-19",
+    "file": "cfs/v20190719/api.json"
+  },
+  {
+    "product": "cfw",
+    "version": "2019-09-04",
+    "file": "cfw/v20190904/api.json"
+  },
+  {
+    "product": "chc",
+    "version": "2023-04-18",
+    "file": "chc/v20230418/api.json"
+  },
+  {
+    "product": "chdfs",
+    "version": "2020-11-12",
+    "file": "chdfs/v20201112/api.json"
+  },
+  {
+    "product": "ciam",
+    "version": "2022-03-31",
+    "file": "ciam/v20220331/api.json"
+  },
+  {
+    "product": "cii",
+    "version": "2021-04-08",
+    "file": "cii/v20210408/api.json"
+  },
+  {
+    "product": "cim",
+    "version": "2019-03-18",
+    "file": "cim/v20190318/api.json"
+  },
+  {
+    "product": "ckafka",
+    "version": "2019-08-19",
+    "file": "ckafka/v20190819/api.json"
+  },
+  {
+    "product": "clb",
+    "version": "2018-03-17",
+    "file": "clb/v20180317/api.json"
+  },
+  {
+    "product": "cloudapp",
+    "version": "2022-05-30",
+    "file": "cloudapp/v20220530/api.json"
+  },
+  {
+    "product": "cloudaudit",
+    "version": "2019-03-19",
+    "file": "cloudaudit/v20190319/api.json"
+  },
+  {
+    "product": "cloudhsm",
+    "version": "2019-11-12",
+    "file": "cloudhsm/v20191112/api.json"
+  },
+  {
+    "product": "cloudmate",
+    "version": "2025-10-30",
+    "file": "cloudmate/v20251030/api.json"
+  },
+  {
+    "product": "cloudrc",
+    "version": "2024-06-06",
+    "file": "cloudrc/v20240606/api.json"
+  },
+  {
+    "product": "cloudstudio",
+    "version": "2023-05-08",
+    "file": "cloudstudio/v20230508/api.json"
+  },
+  {
+    "product": "cls",
+    "version": "2020-10-16",
+    "file": "cls/v20201016/api.json"
+  },
+  {
+    "product": "cme",
+    "version": "2019-10-29",
+    "file": "cme/v20191029/api.json"
+  },
+  {
+    "product": "cmq",
+    "version": "2019-03-04",
+    "file": "cmq/v20190304/api.json"
+  },
+  {
+    "product": "cms",
+    "version": "2019-03-21",
+    "file": "cms/v20190321/api.json"
+  },
+  {
+    "product": "cngw",
+    "version": "2023-04-18",
+    "file": "cngw/v20230418/api.json"
+  },
+  {
+    "product": "config",
+    "version": "2022-08-02",
+    "file": "config/v20220802/api.json"
+  },
+  {
+    "product": "controlcenter",
+    "version": "2023-01-10",
+    "file": "controlcenter/v20230110/api.json"
+  },
+  {
+    "product": "cpdp",
+    "version": "2019-08-20",
+    "file": "cpdp/v20190820/api.json"
+  },
+  {
+    "product": "csip",
+    "version": "2022-11-21",
+    "file": "csip/v20221121/api.json"
+  },
+  {
+    "product": "csxg",
+    "version": "2023-03-03",
+    "file": "csxg/v20230303/api.json"
+  },
+  {
+    "product": "ctem",
+    "version": "2023-11-28",
+    "file": "ctem/v20231128/api.json"
+  },
+  {
+    "product": "ctsdb",
+    "version": "2023-02-02",
+    "file": "ctsdb/v20230202/api.json"
+  },
+  {
+    "product": "cvd",
+    "version": "2020-11-04",
+    "file": "cvd/v20201104/api.json"
+  },
+  {
+    "product": "cvm",
+    "version": "2017-03-12",
+    "file": "cvm/v20170312/api.json"
+  },
+  {
+    "product": "cwp",
+    "version": "2018-02-28",
+    "file": "cwp/v20180228/api.json"
+  },
+  {
+    "product": "cws",
+    "version": "2018-03-12",
+    "file": "cws/v20180312/api.json"
+  },
+  {
+    "product": "cynosdb",
+    "version": "2019-01-07",
+    "file": "cynosdb/v20190107/api.json"
+  },
+  {
+    "product": "dasb",
+    "version": "2019-10-18",
+    "file": "dasb/v20191018/api.json"
+  },
+  {
+    "product": "dataagent",
+    "version": "2025-05-13",
+    "file": "dataagent/v20250513/api.json"
+  },
+  {
+    "product": "databuddy",
+    "version": "2026-07-15",
+    "file": "databuddy/v20260715/api.json"
+  },
+  {
+    "product": "dayu",
+    "version": "2018-07-09",
+    "file": "dayu/v20180709/api.json"
+  },
+  {
+    "product": "dbbrain",
+    "version": "2021-05-27",
+    "file": "dbbrain/v20210527/api.json"
+  },
+  {
+    "product": "dbdc",
+    "version": "2020-10-29",
+    "file": "dbdc/v20201029/api.json"
+  },
+  {
+    "product": "dbs",
+    "version": "2021-11-08",
+    "file": "dbs/v20211108/api.json"
+  },
+  {
+    "product": "dc",
+    "version": "2018-04-10",
+    "file": "dc/v20180410/api.json"
+  },
+  {
+    "product": "dcdb",
+    "version": "2018-04-11",
+    "file": "dcdb/v20180411/api.json"
+  },
+  {
+    "product": "dlc",
+    "version": "2021-01-25",
+    "file": "dlc/v20210125/api.json"
+  },
+  {
+    "product": "dnspod",
+    "version": "2021-03-23",
+    "file": "dnspod/v20210323/api.json"
+  },
+  {
+    "product": "domain",
+    "version": "2018-08-08",
+    "file": "domain/v20180808/api.json"
+  },
+  {
+    "product": "drm",
+    "version": "2018-11-15",
+    "file": "drm/v20181115/api.json"
+  },
+  {
+    "product": "ds",
+    "version": "2018-05-23",
+    "file": "ds/v20180523/api.json"
+  },
+  {
+    "product": "dsgc",
+    "version": "2019-07-23",
+    "file": "dsgc/v20190723/api.json"
+  },
+  {
+    "product": "dts",
+    "version": "2021-12-06",
+    "file": "dts/v20211206/api.json"
+  },
+  {
+    "product": "eb",
+    "version": "2021-04-16",
+    "file": "eb/v20210416/api.json"
+  },
+  {
+    "product": "ecc",
+    "version": "2018-12-13",
+    "file": "ecc/v20181213/api.json"
+  },
+  {
+    "product": "ecdn",
+    "version": "2019-10-12",
+    "file": "ecdn/v20191012/api.json"
+  },
+  {
+    "product": "ecm",
+    "version": "2019-07-19",
+    "file": "ecm/v20190719/api.json"
+  },
+  {
+    "product": "edgezone",
+    "version": "2026-04-01",
+    "file": "edgezone/v20260401/api.json"
+  },
+  {
+    "product": "eiam",
+    "version": "2021-04-20",
+    "file": "eiam/v20210420/api.json"
+  },
+  {
+    "product": "eis",
+    "version": "2021-06-01",
+    "file": "eis/v20210601/api.json"
+  },
+  {
+    "product": "emr",
+    "version": "2019-01-03",
+    "file": "emr/v20190103/api.json"
+  },
+  {
+    "product": "es",
+    "version": "2018-04-16",
+    "file": "es/v20180416/api.json"
+  },
+  {
+    "product": "ess",
+    "version": "2020-11-11",
+    "file": "ess/v20201111/api.json"
+  },
+  {
+    "product": "essbasic",
+    "version": "2021-05-26",
+    "file": "essbasic/v20210526/api.json"
+  },
+  {
+    "product": "evt",
+    "version": "2025-02-17",
+    "file": "evt/v20250217/api.json"
+  },
+  {
+    "product": "facefusion",
+    "version": "2022-09-27",
+    "file": "facefusion/v20220927/api.json"
+  },
+  {
+    "product": "faceid",
+    "version": "2018-03-01",
+    "file": "faceid/v20180301/api.json"
+  },
+  {
+    "product": "fmu",
+    "version": "2019-12-13",
+    "file": "fmu/v20191213/api.json"
+  },
+  {
+    "product": "ft",
+    "version": "2020-03-04",
+    "file": "ft/v20200304/api.json"
+  },
+  {
+    "product": "fwm",
+    "version": "2025-06-11",
+    "file": "fwm/v20250611/api.json"
+  },
+  {
+    "product": "ga2",
+    "version": "2025-01-15",
+    "file": "ga2/v20250115/api.json"
+  },
+  {
+    "product": "gaap",
+    "version": "2018-05-29",
+    "file": "gaap/v20180529/api.json"
+  },
+  {
+    "product": "gme",
+    "version": "2018-07-11",
+    "file": "gme/v20180711/api.json"
+  },
+  {
+    "product": "goosefs",
+    "version": "2022-05-19",
+    "file": "goosefs/v20220519/api.json"
+  },
+  {
+    "product": "gs",
+    "version": "2019-11-18",
+    "file": "gs/v20191118/api.json"
+  },
+  {
+    "product": "gwlb",
+    "version": "2024-09-06",
+    "file": "gwlb/v20240906/api.json"
+  },
+  {
+    "product": "habo",
+    "version": "2018-12-03",
+    "file": "habo/v20181203/api.json"
+  },
+  {
+    "product": "hai",
+    "version": "2023-08-12",
+    "file": "hai/v20230812/api.json"
+  },
+  {
+    "product": "hasim",
+    "version": "2021-07-16",
+    "file": "hasim/v20210716/api.json"
+  },
+  {
+    "product": "hcm",
+    "version": "2018-11-06",
+    "file": "hcm/v20181106/api.json"
+  },
+  {
+    "product": "hunyuan",
+    "version": "2023-09-01",
+    "file": "hunyuan/v20230901/api.json"
+  },
+  {
+    "product": "iai",
+    "version": "2020-03-03",
+    "file": "iai/v20200303/api.json"
+  },
+  {
+    "product": "iap",
+    "version": "2024-07-13",
+    "file": "iap/v20240713/api.json"
+  },
+  {
+    "product": "ic",
+    "version": "2019-03-07",
+    "file": "ic/v20190307/api.json"
+  },
+  {
+    "product": "icr",
+    "version": "2021-10-14",
+    "file": "icr/v20211014/api.json"
+  },
+  {
+    "product": "ie",
+    "version": "2020-03-04",
+    "file": "ie/v20200304/api.json"
+  },
+  {
+    "product": "ig",
+    "version": "2021-05-18",
+    "file": "ig/v20210518/api.json"
+  },
+  {
+    "product": "igtm",
+    "version": "2023-10-24",
+    "file": "igtm/v20231024/api.json"
+  },
+  {
+    "product": "ims",
+    "version": "2020-12-29",
+    "file": "ims/v20201229/api.json"
+  },
+  {
+    "product": "ioa",
+    "version": "2022-06-01",
+    "file": "ioa/v20220601/api.json"
+  },
+  {
+    "product": "iot",
+    "version": "2018-01-23",
+    "file": "iot/v20180123/api.json"
+  },
+  {
+    "product": "iotcloud",
+    "version": "2021-04-08",
+    "file": "iotcloud/v20210408/api.json"
+  },
+  {
+    "product": "iotexplorer",
+    "version": "2019-04-23",
+    "file": "iotexplorer/v20190423/api.json"
+  },
+  {
+    "product": "iotvideo",
+    "version": "2021-11-25",
+    "file": "iotvideo/v20211125/api.json"
+  },
+  {
+    "product": "iotvideoindustry",
+    "version": "2020-12-01",
+    "file": "iotvideoindustry/v20201201/api.json"
+  },
+  {
+    "product": "irp",
+    "version": "2022-08-05",
+    "file": "irp/v20220805/api.json"
+  },
+  {
+    "product": "iss",
+    "version": "2023-05-17",
+    "file": "iss/v20230517/api.json"
+  },
+  {
+    "product": "ivld",
+    "version": "2021-09-03",
+    "file": "ivld/v20210903/api.json"
+  },
+  {
+    "product": "keewidb",
+    "version": "2022-03-08",
+    "file": "keewidb/v20220308/api.json"
+  },
+  {
+    "product": "kms",
+    "version": "2019-01-18",
+    "file": "kms/v20190118/api.json"
+  },
+  {
+    "product": "lcic",
+    "version": "2022-08-17",
+    "file": "lcic/v20220817/api.json"
+  },
+  {
+    "product": "lighthouse",
+    "version": "2020-03-24",
+    "file": "lighthouse/v20200324/api.json"
+  },
+  {
+    "product": "live",
+    "version": "2018-08-01",
+    "file": "live/v20180801/api.json"
+  },
+  {
+    "product": "lke",
+    "version": "2023-11-30",
+    "file": "lke/v20231130/api.json"
+  },
+  {
+    "product": "lkeap",
+    "version": "2024-05-22",
+    "file": "lkeap/v20240522/api.json"
+  },
+  {
+    "product": "lowcode",
+    "version": "2021-01-08",
+    "file": "lowcode/v20210108/api.json"
+  },
+  {
+    "product": "mall",
+    "version": "2023-05-18",
+    "file": "mall/v20230518/api.json"
+  },
+  {
+    "product": "mariadb",
+    "version": "2017-03-12",
+    "file": "mariadb/v20170312/api.json"
+  },
+  {
+    "product": "market",
+    "version": "2019-10-10",
+    "file": "market/v20191010/api.json"
+  },
+  {
+    "product": "memcached",
+    "version": "2019-03-18",
+    "file": "memcached/v20190318/api.json"
+  },
+  {
+    "product": "mmps",
+    "version": "2020-07-10",
+    "file": "mmps/v20200710/api.json"
+  },
+  {
+    "product": "mna",
+    "version": "2021-01-19",
+    "file": "mna/v20210119/api.json"
+  },
+  {
+    "product": "mongodb",
+    "version": "2019-07-25",
+    "file": "mongodb/v20190725/api.json"
+  },
+  {
+    "product": "monitor",
+    "version": "2018-07-24",
+    "file": "monitor/v20180724/api.json"
+  },
+  {
+    "product": "mps",
+    "version": "2019-06-12",
+    "file": "mps/v20190612/api.json"
+  },
+  {
+    "product": "mqtt",
+    "version": "2024-05-16",
+    "file": "mqtt/v20240516/api.json"
+  },
+  {
+    "product": "mrs",
+    "version": "2020-09-10",
+    "file": "mrs/v20200910/api.json"
+  },
+  {
+    "product": "ms",
+    "version": "2018-04-08",
+    "file": "ms/v20180408/api.json"
+  },
+  {
+    "product": "msp",
+    "version": "2018-03-19",
+    "file": "msp/v20180319/api.json"
+  },
+  {
+    "product": "nlp",
+    "version": "2019-04-08",
+    "file": "nlp/v20190408/api.json"
+  },
+  {
+    "product": "npp",
+    "version": "2019-08-23",
+    "file": "npp/v20190823/api.json"
+  },
+  {
+    "product": "oceanus",
+    "version": "2019-04-22",
+    "file": "oceanus/v20190422/api.json"
+  },
+  {
+    "product": "ocr",
+    "version": "2018-11-19",
+    "file": "ocr/v20181119/api.json"
+  },
+  {
+    "product": "omics",
+    "version": "2022-11-28",
+    "file": "omics/v20221128/api.json"
+  },
+  {
+    "product": "organization",
+    "version": "2021-03-31",
+    "file": "organization/v20210331/api.json"
+  },
+  {
+    "product": "partners",
+    "version": "2018-03-21",
+    "file": "partners/v20180321/api.json"
+  },
+  {
+    "product": "portal",
+    "version": "2023-04-13",
+    "file": "portal/v20230413/api.json"
+  },
+  {
+    "product": "postgres",
+    "version": "2017-03-12",
+    "file": "postgres/v20170312/api.json"
+  },
+  {
+    "product": "privatedns",
+    "version": "2020-10-28",
+    "file": "privatedns/v20201028/api.json"
+  },
+  {
+    "product": "pts",
+    "version": "2021-07-28",
+    "file": "pts/v20210728/api.json"
+  },
+  {
+    "product": "rce",
+    "version": "2026-01-30",
+    "file": "rce/v20260130/api.json"
+  },
+  {
+    "product": "redis",
+    "version": "2018-04-12",
+    "file": "redis/v20180412/api.json"
+  },
+  {
+    "product": "region",
+    "version": "2022-06-27",
+    "file": "region/v20220627/api.json"
+  },
+  {
+    "product": "rum",
+    "version": "2021-06-22",
+    "file": "rum/v20210622/api.json"
+  },
+  {
+    "product": "scf",
+    "version": "2018-04-16",
+    "file": "scf/v20180416/api.json"
+  },
+  {
+    "product": "securitylake",
+    "version": "2024-01-17",
+    "file": "securitylake/v20240117/api.json"
+  },
+  {
+    "product": "ses",
+    "version": "2020-10-02",
+    "file": "ses/v20201002/api.json"
+  },
+  {
+    "product": "smh",
+    "version": "2021-07-12",
+    "file": "smh/v20210712/api.json"
+  },
+  {
+    "product": "smop",
+    "version": "2020-12-03",
+    "file": "smop/v20201203/api.json"
+  },
+  {
+    "product": "sms",
+    "version": "2021-01-11",
+    "file": "sms/v20210111/api.json"
+  },
+  {
+    "product": "soe",
+    "version": "2018-07-24",
+    "file": "soe/v20180724/api.json"
+  },
+  {
+    "product": "sqlserver",
+    "version": "2018-03-28",
+    "file": "sqlserver/v20180328/api.json"
+  },
+  {
+    "product": "ssa",
+    "version": "2018-06-08",
+    "file": "ssa/v20180608/api.json"
+  },
+  {
+    "product": "ssl",
+    "version": "2019-12-05",
+    "file": "ssl/v20191205/api.json"
+  },
+  {
+    "product": "sslpod",
+    "version": "2019-06-05",
+    "file": "sslpod/v20190605/api.json"
+  },
+  {
+    "product": "ssm",
+    "version": "2019-09-23",
+    "file": "ssm/v20190923/api.json"
+  },
+  {
+    "product": "sts",
+    "version": "2018-08-13",
+    "file": "sts/v20180813/api.json"
+  },
+  {
+    "product": "svp",
+    "version": "2024-01-25",
+    "file": "svp/v20240125/api.json"
+  },
+  {
+    "product": "taf",
+    "version": "2020-02-10",
+    "file": "taf/v20200210/api.json"
+  },
+  {
+    "product": "tag",
+    "version": "2018-08-13",
+    "file": "tag/v20180813/api.json"
+  },
+  {
+    "product": "tat",
+    "version": "2020-10-28",
+    "file": "tat/v20201028/api.json"
+  },
+  {
+    "product": "tbaas",
+    "version": "2018-04-16",
+    "file": "tbaas/v20180416/api.json"
+  },
+  {
+    "product": "tbp",
+    "version": "2019-06-27",
+    "file": "tbp/v20190627/api.json"
+  },
+  {
+    "product": "tcaplusdb",
+    "version": "2019-08-23",
+    "file": "tcaplusdb/v20190823/api.json"
+  },
+  {
+    "product": "tcb",
+    "version": "2018-06-08",
+    "file": "tcb/v20180608/api.json"
+  },
+  {
+    "product": "tcbr",
+    "version": "2022-02-17",
+    "file": "tcbr/v20220217/api.json"
+  },
+  {
+    "product": "tccatalog",
+    "version": "2024-10-24",
+    "file": "tccatalog/v20241024/api.json"
+  },
+  {
+    "product": "tchd",
+    "version": "2023-03-06",
+    "file": "tchd/v20230306/api.json"
+  },
+  {
+    "product": "tcm",
+    "version": "2021-04-13",
+    "file": "tcm/v20210413/api.json"
+  },
+  {
+    "product": "tcr",
+    "version": "2019-09-24",
+    "file": "tcr/v20190924/api.json"
+  },
+  {
+    "product": "tcss",
+    "version": "2020-11-01",
+    "file": "tcss/v20201101/api.json"
+  },
+  {
+    "product": "tdai",
+    "version": "2025-07-17",
+    "file": "tdai/v20250717/api.json"
+  },
+  {
+    "product": "tdcpg",
+    "version": "2021-11-18",
+    "file": "tdcpg/v20211118/api.json"
+  },
+  {
+    "product": "tdid",
+    "version": "2021-05-19",
+    "file": "tdid/v20210519/api.json"
+  },
+  {
+    "product": "tdmq",
+    "version": "2020-02-17",
+    "file": "tdmq/v20200217/api.json"
+  },
+  {
+    "product": "tdmysql",
+    "version": "2021-11-22",
+    "file": "tdmysql/v20211122/api.json"
+  },
+  {
+    "product": "tds",
+    "version": "2022-08-01",
+    "file": "tds/v20220801/api.json"
+  },
+  {
+    "product": "tem",
+    "version": "2021-07-01",
+    "file": "tem/v20210701/api.json"
+  },
+  {
+    "product": "teo",
+    "version": "2022-09-01",
+    "file": "teo/v20220901/api.json"
+  },
+  {
+    "product": "thpc",
+    "version": "2023-03-21",
+    "file": "thpc/v20230321/api.json"
+  },
+  {
+    "product": "tia",
+    "version": "2018-02-26",
+    "file": "tia/v20180226/api.json"
+  },
+  {
+    "product": "tiia",
+    "version": "2019-05-29",
+    "file": "tiia/v20190529/api.json"
+  },
+  {
+    "product": "tione",
+    "version": "2021-11-11",
+    "file": "tione/v20211111/api.json"
+  },
+  {
+    "product": "tiw",
+    "version": "2019-09-19",
+    "file": "tiw/v20190919/api.json"
+  },
+  {
+    "product": "tke",
+    "version": "2018-05-25",
+    "file": "tke/v20180525/api.json"
+  },
+  {
+    "product": "tkgdq",
+    "version": "2019-04-11",
+    "file": "tkgdq/v20190411/api.json"
+  },
+  {
+    "product": "tms",
+    "version": "2020-12-29",
+    "file": "tms/v20201229/api.json"
+  },
+  {
+    "product": "tmt",
+    "version": "2018-03-21",
+    "file": "tmt/v20180321/api.json"
+  },
+  {
+    "product": "tokenhub",
+    "version": "2026-03-22",
+    "file": "tokenhub/v20260322/api.json"
+  },
+  {
+    "product": "tourism",
+    "version": "2023-02-15",
+    "file": "tourism/v20230215/api.json"
+  },
+  {
+    "product": "trabbit",
+    "version": "2023-04-18",
+    "file": "trabbit/v20230418/api.json"
+  },
+  {
+    "product": "trocket",
+    "version": "2023-03-08",
+    "file": "trocket/v20230308/api.json"
+  },
+  {
+    "product": "trp",
+    "version": "2021-05-15",
+    "file": "trp/v20210515/api.json"
+  },
+  {
+    "product": "trro",
+    "version": "2022-03-25",
+    "file": "trro/v20220325/api.json"
+  },
+  {
+    "product": "trtc",
+    "version": "2019-07-22",
+    "file": "trtc/v20190722/api.json"
+  },
+  {
+    "product": "tse",
+    "version": "2020-12-07",
+    "file": "tse/v20201207/api.json"
+  },
+  {
+    "product": "tsf",
+    "version": "2018-03-26",
+    "file": "tsf/v20180326/api.json"
+  },
+  {
+    "product": "tsi",
+    "version": "2021-03-25",
+    "file": "tsi/v20210325/api.json"
+  },
+  {
+    "product": "tsw",
+    "version": "2021-04-12",
+    "file": "tsw/v20210412/api.json"
+  },
+  {
+    "product": "tts",
+    "version": "2019-08-23",
+    "file": "tts/v20190823/api.json"
+  },
+  {
+    "product": "vcg",
+    "version": "2024-04-04",
+    "file": "vcg/v20240404/api.json"
+  },
+  {
+    "product": "vclm",
+    "version": "2024-05-23",
+    "file": "vclm/v20240523/api.json"
+  },
+  {
+    "product": "vcube",
+    "version": "2022-04-10",
+    "file": "vcube/v20220410/api.json"
+  },
+  {
+    "product": "vdb",
+    "version": "2023-06-16",
+    "file": "vdb/v20230616/api.json"
+  },
+  {
+    "product": "vm",
+    "version": "2021-09-22",
+    "file": "vm/v20210922/api.json"
+  },
+  {
+    "product": "vms",
+    "version": "2020-09-02",
+    "file": "vms/v20200902/api.json"
+  },
+  {
+    "product": "vod",
+    "version": "2018-07-17",
+    "file": "vod/v20180717/api.json"
+  },
+  {
+    "product": "vpc",
+    "version": "2017-03-12",
+    "file": "vpc/v20170312/api.json"
+  },
+  {
+    "product": "vrs",
+    "version": "2020-08-24",
+    "file": "vrs/v20200824/api.json"
+  },
+  {
+    "product": "vtc",
+    "version": "2024-02-23",
+    "file": "vtc/v20240223/api.json"
+  },
+  {
+    "product": "waf",
+    "version": "2018-01-25",
+    "file": "waf/v20180125/api.json"
+  },
+  {
+    "product": "wav",
+    "version": "2021-01-29",
+    "file": "wav/v20210129/api.json"
+  },
+  {
+    "product": "wedata",
+    "version": "2025-08-06",
+    "file": "wedata/v20250806/api.json"
+  },
+  {
+    "product": "weilingwith",
+    "version": "2023-04-27",
+    "file": "weilingwith/v20230427/api.json"
+  },
+  {
+    "product": "wimgs",
+    "version": "2025-11-06",
+    "file": "wimgs/v20251106/api.json"
+  },
+  {
+    "product": "workbuddyenterprise",
+    "version": "2026-07-09",
+    "file": "workbuddyenterprise/v20260709/api.json"
+  },
+  {
+    "product": "wsa",
+    "version": "2025-05-08",
+    "file": "wsa/v20250508/api.json"
+  },
+  {
+    "product": "wss",
+    "version": "2018-04-26",
+    "file": "wss/v20180426/api.json"
+  },
+  {
+    "product": "yinsuda",
+    "version": "2022-05-27",
+    "file": "yinsuda/v20220527/api.json"
+  },
+  {
+    "product": "yunjing",
+    "version": "2018-02-28",
+    "file": "yunjing/v20180228/api.json"
+  },
+  {
+    "product": "yunsou",
+    "version": "2019-11-15",
+    "file": "yunsou/v20191115/api.json"
+  }
+]

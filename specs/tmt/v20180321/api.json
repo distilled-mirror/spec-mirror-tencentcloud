@@ -1,0 +1,333 @@
+{
+  "actions": {
+    "ImageTranslateLLM": {
+      "document": "提供18种语言的图片翻译服务，可自动识别图片中的文本内容并翻译成目标语言，识别后的文本按行翻译，后续会提供可按段落翻译的版本。\n\n- 输入图片格式：png、jpg、jpeg等常用图片格式，不支持gif动图。\n- 输出图片格式：jpg。\n\n提示：对于一般开发者，我们建议优先使用SDK接入简化开发。SDK使用介绍请直接查看 5. 开发者资源 部分。",
+      "input": "ImageTranslateLLMRequest",
+      "name": "端到端图片翻译",
+      "output": "ImageTranslateLLMResponse",
+      "status": "online"
+    }
+  },
+  "metadata": {
+    "apiVersion": "2018-03-21",
+    "api_brief": "介绍如何使用API对机器翻译进行操作，包括端到端图片翻译等。",
+    "serviceNameCN": "机器翻译",
+    "serviceShortName": "tmt"
+  },
+  "objects": {
+    "BoundingBox": {
+      "document": "段落文本框位置：x，y代表左上顶点，width和height代表宽高",
+      "members": [
+        {
+          "disabled": false,
+          "document": "<p>左上顶点x坐标</p>",
+          "example": "0",
+          "member": "int64",
+          "name": "X",
+          "output_required": false,
+          "type": "int",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "<p>左上顶点y坐标</p>",
+          "example": "0",
+          "member": "int64",
+          "name": "Y",
+          "output_required": false,
+          "type": "int",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "<p>宽</p><p>单位：px</p>",
+          "example": "10",
+          "member": "int64",
+          "name": "Width",
+          "output_required": false,
+          "type": "int",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "<p>高</p><p>单位：px</p>",
+          "example": "10",
+          "member": "int64",
+          "name": "Height",
+          "output_required": false,
+          "type": "int",
+          "value_allowed_null": false
+        }
+      ],
+      "usage": "out"
+    },
+    "Coord": {
+      "document": "坐标详细信息",
+      "members": [
+        {
+          "disabled": false,
+          "document": "X坐标",
+          "example": "10",
+          "member": "int64",
+          "name": "X",
+          "output_required": false,
+          "required": false,
+          "type": "int",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "Y坐标",
+          "example": "10",
+          "member": "int64",
+          "name": "Y",
+          "output_required": false,
+          "required": false,
+          "type": "int",
+          "value_allowed_null": false
+        }
+      ],
+      "usage": "both"
+    },
+    "ImageTranslateLLMRequest": {
+      "document": "ImageTranslateLLM请求参数结构体",
+      "members": [
+        {
+          "disabled": false,
+          "document": "<p>图片数据的Base64字符串，经Base64编码后不超过 9M，分辨率建议600*800以上，支持PNG、JPG、JPEG格式。</p>",
+          "example": "/9j/4QlQaHR0c...N6a2M5ZCI",
+          "member": "string",
+          "name": "Data",
+          "required": true,
+          "type": "string"
+        },
+        {
+          "disabled": false,
+          "document": "<p>目标语言，支持语言列表：</p><ul><li>中文：zh</li><li>繁体（中国台湾）：zh-TW</li><li>繁体（中国香港）：zh-HK</li><li>英文：en</li><li>日语：ja</li><li>韩语：ko</li><li>泰语：th</li><li>越南语：vi</li><li>俄语：ru</li><li>德语：de</li><li>法语：fr</li><li>阿拉伯语：ar</li><li>西班牙语：es</li><li>意大利语：it</li><li>印度尼西亚语：id</li><li>马来西亚语：ms</li><li>葡萄牙语：pt</li><li>土耳其语：tr<br>-</li></ul>",
+          "example": "en",
+          "member": "string",
+          "name": "Target",
+          "required": true,
+          "type": "string"
+        },
+        {
+          "disabled": false,
+          "document": "<p>输入图 Url。 使用Url的时候，Data参数需要传入&quot;&quot;。 图片限制：小于 10MB，分辨率建议600*800以上，格式支持 jpg、jpeg、png。</p>",
+          "example": "https://xxx.com/image.jpg",
+          "member": "string",
+          "name": "Url",
+          "required": false,
+          "type": "string"
+        },
+        {
+          "disabled": false,
+          "document": "<p>调用模式。</p><p>枚举值：</p><ul><li>0： 端到端图片翻译大模型pro版</li><li>1： 端到端图片翻译大模型lite版</li></ul><p>默认值：0</p>",
+          "example": "0",
+          "member": "int64",
+          "name": "Mode",
+          "required": false,
+          "type": "int"
+        }
+      ],
+      "type": "object"
+    },
+    "ImageTranslateLLMResponse": {
+      "document": "ImageTranslateLLM返回参数结构体",
+      "members": [
+        {
+          "disabled": false,
+          "document": "<p>图片数据的Base64字符串，输出格式为JPG。</p>",
+          "example": "iVBORw0KGgoAAAANSUhEUgAAAdkAAABPCAYAAACnD7%252FoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAJ......CCyAAAAwCQgsgAAAMAkILIAAADAJCCyAAAAwCQgsgAAAMAkILIAAADAFJblX8%252F8oMOWYN6nAAAAAElFTkSuQmCC",
+          "member": "string",
+          "name": "Data",
+          "output_required": true,
+          "type": "string",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "<p>原文本主要源语言。</p>",
+          "example": "en",
+          "member": "string",
+          "name": "Source",
+          "output_required": true,
+          "type": "string",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "<p>目标翻译语言。</p>",
+          "example": "zh",
+          "member": "string",
+          "name": "Target",
+          "output_required": true,
+          "type": "string",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "<p>图片中的全部原文本。</p>",
+          "example": "hello",
+          "member": "string",
+          "name": "SourceText",
+          "output_required": true,
+          "type": "string",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "<p>图片中全部译文。</p>",
+          "example": "你好",
+          "member": "string",
+          "name": "TargetText",
+          "output_required": false,
+          "type": "string",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "<p>逆时针图片角度，取值范围为0-359</p>",
+          "example": "90.0",
+          "member": "float",
+          "name": "Angle",
+          "output_required": false,
+          "type": "float",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "<p>翻译详情信息</p>",
+          "example": "无",
+          "member": "TransDetail",
+          "name": "TransDetails",
+          "output_required": false,
+          "type": "list",
+          "value_allowed_null": false
+        },
+        {
+          "document": "唯一请求 ID，由服务端生成，每次请求都会返回（若请求因其他原因未能抵达服务端，则该次请求不会获得 RequestId）。定位问题时需要提供该次请求的 RequestId。",
+          "member": "string",
+          "name": "RequestId",
+          "type": "string"
+        }
+      ],
+      "type": "object"
+    },
+    "RotateParagraphRect": {
+      "document": "段落文本旋转信息",
+      "members": [
+        {
+          "disabled": false,
+          "document": "段落文本坐标",
+          "example": "无",
+          "member": "Coord",
+          "name": "Coord",
+          "output_required": false,
+          "required": false,
+          "type": "list",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "旋转角度",
+          "example": "1.0",
+          "member": "float",
+          "name": "TiltAngle",
+          "output_required": false,
+          "required": false,
+          "type": "float",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "段落文本信息是否有效",
+          "example": "true",
+          "member": "bool",
+          "name": "Valid",
+          "output_required": false,
+          "required": false,
+          "type": "bool",
+          "value_allowed_null": false
+        }
+      ],
+      "usage": "both"
+    },
+    "TransDetail": {
+      "document": "大模型图片翻译详情信息",
+      "members": [
+        {
+          "disabled": false,
+          "document": "<p>当前行的原文本</p>",
+          "example": "你好",
+          "member": "string",
+          "name": "SourceLineText",
+          "output_required": false,
+          "type": "string",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "<p>当前行的译文</p>",
+          "example": "hello",
+          "member": "string",
+          "name": "TargetLineText",
+          "output_required": false,
+          "type": "string",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "<p>段落文本框位置</p>",
+          "example": "无",
+          "member": "BoundingBox",
+          "name": "BoundingBox",
+          "output_required": false,
+          "type": "object",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "<p>行数</p>",
+          "example": "1",
+          "member": "int64",
+          "name": "LinesCount",
+          "output_required": false,
+          "type": "int",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "<p>行高</p><p>单位：px</p>",
+          "example": "10",
+          "member": "int64",
+          "name": "LineHeight",
+          "output_required": false,
+          "type": "int",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "<p>正常段落spam_code字段为0；如果存在spam_code字段且值大于0（1: 命中垃圾检查；2: 命中安全策略；3: 其他。），则命中安全检查被过滤。</p>",
+          "example": "0",
+          "member": "int64",
+          "name": "SpamCode",
+          "output_required": false,
+          "type": "int",
+          "value_allowed_null": false
+        },
+        {
+          "disabled": false,
+          "document": "<p>段落文本旋转信息，只在valid为true时表示坐标有效</p>",
+          "example": "无",
+          "member": "RotateParagraphRect",
+          "name": "RotateParagraphRect",
+          "output_required": false,
+          "type": "object",
+          "value_allowed_null": false
+        }
+      ],
+      "usage": "out"
+    }
+  },
+  "version": "1.0"
+}
