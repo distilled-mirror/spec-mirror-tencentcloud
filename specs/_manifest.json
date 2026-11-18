@@ -790,6 +790,11 @@
     "file": "lowcode/v20210108/api.json"
   },
   {
+    "product": "makers",
+    "version": "2026-11-13",
+    "file": "makers/v20261113/api.json"
+  },
+  {
     "product": "mall",
     "version": "2023-05-18",
     "file": "mall/v20230518/api.json"
