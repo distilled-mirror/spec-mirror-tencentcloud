@@ -395,11 +395,6 @@
     "file": "controlcenter/v20230110/api.json"
   },
   {
-    "product": "cpdp",
-    "version": "2019-08-20",
-    "file": "cpdp/v20190820/api.json"
-  },
-  {
     "product": "csip",
     "version": "2022-11-21",
     "file": "csip/v20221121/api.json"
